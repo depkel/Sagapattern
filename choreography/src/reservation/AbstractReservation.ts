@@ -41,6 +41,6 @@ export abstract class AbstractReservation {
   public async compensate(): Promise<void> {
     // Console.log the class name
     console.log(`Compensating ${this.constructor.name} reservation`);
-    debugger;
+    debugger; //added for learning 7/06/2024
   }
 }
